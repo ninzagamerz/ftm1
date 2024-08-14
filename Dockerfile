@@ -10,4 +10,5 @@ RUN mkdir /Eva
 WORKDIR /Eva
 COPY start.sh /start.sh
 COPY . .
+EXPOSE 5001
 CMD ["/bin/bash", "/start.sh"]
